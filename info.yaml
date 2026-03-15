@@ -2,9 +2,9 @@
 project:
   wokwi_id:     458480692870131713       # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "Mei's tiny tapeout workshop"      # Project title
-  author:       "Mei-Gui Cen"      # Your name
+  author:       "Mei C."      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Switch on"      # One line description of what your project does
+  description:  "Gives an 8 via an AND, OR and NOT"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,23 +16,23 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "input AND"
+  ui[1]: "input OR"
+  ui[2]: "input AND"
+  ui[3]: "input OR"
+  ui[4]: "input IN4"
+  ui[5]: "input IN5"
+  ui[6]: "input IN6"
+  ui[7]: "input NOT"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
+  uo[0]: "output AND"
+  uo[1]: "output NOT"
+  uo[2]: "outut OR"
+  uo[3]: "output IN3"
+  uo[4]: "output IN4"
+  uo[5]: "output IN5"
+  uo[6]: "output IN6"
   uo[7]: ""
 
   # Bidirectional pins
