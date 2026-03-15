@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+We have a 3-input NAND gate - digital read out number 8
 
 ## How to test
 
-Explain how to use your project
+Connect inputs to GATE inputs and directly to output chip - look at the output - should match the truth table for 3-input NAND gates
 
 ## External hardware
 
